@@ -43,3 +43,12 @@ logs/
 # Temporary files
 *.tmp
 *.temp
+
+# Deployment files
+.streamlit/secrets.toml
+.dockerignore
+*.pid
+
+# Generated narrations (optional - remove if you want to track them)
+narrations/*.mp3
+narrations/*.wav
